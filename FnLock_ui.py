@@ -14,11 +14,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_FnLock(object):
     def setupUi(self, FnLock):
         FnLock.setObjectName("FnLock")
-        FnLock.resize(174, 87)
+        FnLock.resize(170, 87)
+        FnLock.setMinimumSize(QtCore.QSize(170, 87))
+        FnLock.setMaximumSize(QtCore.QSize(170, 87))
         self.checkBox = QtWidgets.QCheckBox(FnLock)
         self.checkBox.setGeometry(QtCore.QRect(60, 20, 80, 40))
-        self.checkBox.setMinimumSize(QtCore.QSize(0, 40))
-        self.checkBox.setMaximumSize(QtCore.QSize(80, 40))
         self.checkBox.setObjectName("checkBox")
 
         self.retranslateUi(FnLock)
