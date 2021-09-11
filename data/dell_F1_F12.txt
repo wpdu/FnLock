@@ -1,0 +1,63 @@
+F1
+KeyboardEvent(volume mute down)
+KeyboardEvent(volume mute up)
+-173
+
+F2
+KeyboardEvent(volume down down)
+KeyboardEvent(volume down up)
+-174
+
+F3
+KeyboardEvent(volume up down)
+KeyboardEvent(volume up up)
+-175
+
+F4
+KeyboardEvent(previous track down)
+KeyboardEvent(previous track up)
+-177
+
+F5
+KeyboardEvent(play/pause media down)
+KeyboardEvent(play/pause media up)
+-179
+
+F6
+KeyboardEvent(next track down)
+KeyboardEvent(next track up)
+-176
+
+F9
+KeyboardEvent(shift down) 42
+KeyboardEvent(left windows down) 91
+KeyboardEvent(f21 down) 108
+
+KeyboardEvent(shift up)
+KeyboardEvent(left windows up)
+KeyboardEvent(f21 up)
+
+F10
+KeyboardEvent(left windows down)91
+KeyboardEvent(tab down)15
+
+KeyboardEvent(left windows up)
+KeyboardEvent(tab up)
+
+F11
+KeyboardEvent(ctrl down)29
+KeyboardEvent(left windows down)91
+KeyboardEvent(f21 down)108
+
+KeyboardEvent(ctrl up)
+KeyboardEvent(left windows up)
+KeyboardEvent(f21 up)
+
+F12
+KeyboardEvent(left windows down)91
+KeyboardEvent(f21 down)108
+
+KeyboardEvent(left windows up)
+KeyboardEvent(f21 up)
+
+KeyboardEvent(esc down)

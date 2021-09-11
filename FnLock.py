@@ -5,7 +5,8 @@ import sys
 from PyQt5.QtGui import QIcon
 from system_hotkey import SystemHotkey
 from FnLock_ui import Ui_FnLock
-from key_remap_util import remap_keys, remove_remap_keys
+from my_key_map_util import remap_keys, remove_remap_keys
+# from key_remap_util import remap_keys, remove_remap_keys
 
 
 class Main(QWidget, Ui_FnLock):
@@ -79,7 +80,7 @@ class HotKeyThread(QThread, SystemHotkey):
     def __init__(self, UI):
         self.ui = UI
         super(HotKeyThread, self).__init__()
-        self.register(('control', 'l', 'f'), callback=lambda x: self.start())
+        self.register(('control', 'l'), callback=lambda x: self.start())
         self.trigger.connect(self.hotKeyEvent)
 
     def run(self):
