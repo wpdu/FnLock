@@ -116,14 +116,14 @@ def press(e):
     '''
     # printe(e)
     # 只要有一个返回 True, 则说明拦截
-    supress = any(km.on_press(e) for km in kms)
-    return not supress
+    suppress = any(km.on_press(e) for km in kms)
+    return not suppress
 
 
 def release(e):
     # printe(e)
-    supress = any(km.on_release(e) for km in kms)
-    return not supress
+    suppress = any(km.on_release(e) for km in kms)
+    return not suppress
 
 
 def remap_keys():
