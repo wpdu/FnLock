@@ -11,6 +11,14 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "Python: FnLock",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/FnLockMain.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }
