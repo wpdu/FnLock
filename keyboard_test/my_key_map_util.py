@@ -1,6 +1,5 @@
 import time
 import keyboard
-from threading import Thread
 from log_util import logger
 
 
@@ -103,12 +102,19 @@ class KeyboardMapping(object):
 
 
 key_maps = [
-    (['volume mute'], ['f1']),
-    (['volume down'], ['f2']),
-    (['volume up'], ['f3']),
-    (['previous track'], ['f4']),
-    (['play/pause media'], ['f5']),
-    (['next track'], ['f6']),
+    # (['volume mute'], ['f1']),
+    # (['volume down'], ['f2']),
+    # (['volume up'], ['f3']),
+    # (['previous track'], ['f4']),
+    # (['play/pause media'], ['f5']),
+    # (['next track'], ['f6']),
+    # 远程桌面时，映射发生了改变
+    (['D'], ['f1']),
+    (['C'], ['f2']),
+    (['B'], ['f3']),
+    (['Q'], ['f4']),
+    (['G'], ['f5']),
+    (['P'], ['f6']),
 
     # # 组合键场景如果最后一个按键撤回很可能导致
     (['shift', 'left windows', 'f21'], ['f9']),
@@ -139,6 +145,7 @@ def press(e):
         return not suppress
     except Exception as ex:
         logger.exception(ex)
+
 
 def release(e):
     # logger.info('release: '+ formate(e))

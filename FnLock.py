@@ -5,7 +5,7 @@ import sys
 from PyQt5.QtGui import QIcon
 from system_hotkey import SystemHotkey
 from FnLock_ui import Ui_FnLock
-from my_key_map_util import remap_keys, remove_remap_keys
+from keyboard_test.my_key_map_util import remap_keys, remove_remap_keys
 # from key_remap_util import remap_keys, remove_remap_keys
 
 
